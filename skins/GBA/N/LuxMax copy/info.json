@@ -1,0 +1,229 @@
+{
+  "name": "Lux Max (Broank)",
+  "identifier": "com.broank.gba.luxmax-n",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "edgeToEdge": {
+        "portrait": {
+          "assets": {
+            "small": "skin.png",
+            "medium": "skin.png",
+            "large": "skin.png"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 32.85,
+                "y": 578.25,
+                "width": 163.36,
+                "height": 163.07
+              },
+              "extendedEdges": {
+                "top": 5,
+                "bottom": 5,
+                "left": 5,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 269,
+                "y": 858.94,
+                "width": 21.78,
+                "height": 21.74
+              }
+            },
+            {
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 138.31,
+                "y": 858.94,
+                "width": 21.78,
+                "height": 21.74
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 0,
+                "y": 366.98,
+                "width": 116,
+                "height": 19.57
+              }
+            },
+            {
+              "inputs": [
+                "quickLoad"
+              ],
+              "frame": {
+                "x": 312.11,
+                "y": 366.98,
+                "width": 116,
+                "height": 19.57
+              }
+            },
+            {
+              "inputs": [
+                "toggleFastForward"
+              ],
+              "frame": {
+                "x": 155.95,
+                "y": 366.98,
+                "width": 116,
+                "height": 19.57
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 328.74,
+                "y": 577.01,
+                "width": 59.9,
+                "height": 59.79
+              },
+              "extendedEdges": {
+                "top": 5,
+                "bottom": 5,
+                "left": 5,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 268.59,
+                "y": 681.77,
+                "width": 59.9,
+                "height": 59.79
+              },
+              "extendedEdges": {
+                "top": 5,
+                "left": 5,
+                "right": 5,
+                "bottom": 5
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 8.03,
+                "y": 460.09,
+                "width": 113.69,
+                "height": 24.03
+              },
+              "extendedEdges": {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 306.29,
+                "y": 460.09,
+                "width": 113.69,
+                "height": 24.03
+              },
+              "extendedEdges": {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5
+              }
+            },
+            {
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 201.06,
+                "y": 450.08,
+                "width": 25.88,
+                "height": 24.84
+              },
+              "extendedEdges": {
+                "bottom": 5,
+                "top": 5,
+                "right": 5,
+                "left": 5
+              }
+            }
+          ],
+          "mappingSize": {
+            "width": 428,
+            "height": 926
+          },
+          "screens": [
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 256,
+                "height": 224
+              },
+              "outputFrame": {
+                "x": 480.75,
+                "y": 0,
+                "width": 1389.51,
+                "height": 926
+              },
+              "filters": [
+                {
+                  "name": "CIColorControls",
+                  "parameters": {
+                    "inputBrightness": -0.15
+                  }
+                },
+                {
+                  "name": "CIGaussianBlur",
+                  "parameters": {
+                    "inputRadius": 22
+                  }
+                }
+              ]
+            },
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 256,
+                "height": 224
+              },
+              "outputFrame": {
+                "x": 0,
+                "y": 78.49,
+                "width": 428,
+                "height": 285.15
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
